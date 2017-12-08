@@ -10,9 +10,9 @@ python2 HPscan.py -i ipaddress [-p port] [-P max-procs] [-t timeout]
     
 -p: port,like: 22:80-81   default: 80 
     
--P: max-procs;default: 400 
+-P: max-procs;    default: 400 
 
--t: socket timeout(seconds);default: 3
+-t: socket timeout(seconds);    default: 3
 
 ## Output
 OPEN!   Tcp port open 
