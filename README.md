@@ -6,13 +6,9 @@ python2 HPscan.py -i ipaddress [-p port] [-P max-procs] [-t timeout]
 
 -h: help 
 
--i: ip address,like: 192.168.0.1, 192.168.0.100-200, 192.168.2.1/25
-
-    default:127.0.0.1 
+-i: ip address,like: 192.168.0.1, 192.168.0.100-200, 192.168.2.1/25    default:127.0.0.1 
     
--p: port,like: 22:80-81
-
-    default: 80 
+-p: port,like: 22:80-81   default: 80 
     
 -P: max-procs;default: 400 
 
